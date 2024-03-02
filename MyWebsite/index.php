@@ -85,7 +85,7 @@
 // echo $_GET["name"]
 
 // this line will search for name in get, post and cookies.
-echo $_REQUEST["name"];
+// echo $_REQUEST["name"];
 
 ?>
 
