@@ -33,7 +33,7 @@
     echo $name;
 ?> -->
 
-<?php 
+<!-- <?php 
 
     // Scalar types (contains one value)
     // $string = "Daniel";
@@ -63,7 +63,33 @@
     $name;
     echo "Hello World!";
     echo $name;
+?> -->
+
+<?php 
+
+// global variables
+
+// echo $_SERVER[ "DOCUMENT_ROOT"];
+// echo "<br>";
+
+// echo $_SERVER["PHP_SELF"];
+
+// echo "<br>";
+
+// echo $_SERVER["SERVER_NAME"];
+// echo "<br>";
+
+// echo $_SERVER[ "REQUEST_METHOD"];
+
+// this line will display name from params from url http://localhost/php/MyWebsite/index.php?name=suman
+// echo $_GET["name"]
+
+// this line will search for name in get, post and cookies.
+echo $_REQUEST["name"];
+
 ?>
+
+
 
 
 
